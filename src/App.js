@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+// import Restaurant from "./components/basics/Restaurant";
+//import IncrementDecr from "./components/basics/IncrementDecrement/IncrementDecr";
+//import UseEffect from "./components/basics/IncrementDecrement/UseEffect";
+//import Todo from "./components/todoreact/Todo";
+import Temp from "./components/Weather/Temp";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Temp />
     </div>
   );
 }
